@@ -9,9 +9,9 @@ int main(){
         for(int j = 1; j <= i; j++){
             printf("*");
             }
-        for(int j = N; j <= 2*i; j++){
-            printf("*");
-            }
+        // for(int j = N; j <= 2*i; j++){
+        //     printf("*");
+        //     }
     printf(" \n");
     }
 
