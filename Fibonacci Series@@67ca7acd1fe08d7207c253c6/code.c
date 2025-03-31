@@ -1,4 +1,4 @@
-int fibonacciSeries(int n){
+void fibonacciSeries(int n){
     int fib[n];
     fib[0] = 0;
     fib[1] = 1;
