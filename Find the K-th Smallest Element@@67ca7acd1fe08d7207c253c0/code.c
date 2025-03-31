@@ -8,11 +8,11 @@ int kthSmallest(int arr[], int n, int k){
             }
         }
     }
-    if(k>0 && k< n){
-        printf("%d", arr[k-1]);
-    }
-    else{
-        printf("%d",-1);
-    }
+    if(k>0 && k< n)
+        return arr[k-1];
+    
+    else
+        return -1;
+    
     
 }
