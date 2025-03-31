@@ -9,7 +9,7 @@ int fibonacciSeries(int n){
     else if(n = 0){
         printf("%d ", fib[0]);
     }
-    else{
+    elseif(n>1){
     for(int i = 2; i < n; i++){
         fib[i] = fib[i-1] + fib[i-2];
         printf("%d ", fib[i]);
